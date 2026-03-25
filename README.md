@@ -68,3 +68,7 @@ Le transport optimal vise à transformer une distribution source en une distribu
 - Les méthodes **OT (EMD / Sinkhorn)** sont plus fidèles théoriquement,
   mais plus coûteuses et parfois moins stables.
 
+---
+
+  Projet réalisé dans le cadre de l'UE COMPUTATIONAL IMAGING @ IMT ATLANTIQUE
+
