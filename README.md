@@ -3,7 +3,7 @@
 ## Objectif
 Comparer plusieurs méthodes de **transfert de couleurs** entre images, avec un focus sur le **Transport Optimal**, en travaillant dans un espace perceptuel adapté (**Lab**).
 
----
+
 
 ## Espace de représentation : Lab
 
@@ -15,7 +15,6 @@ Les images sont converties de RGB → **Lab** :
 => Plus proche de la perception humaine  
 => Distances euclidiennes plus pertinentes pour la couleur  
 
----
 
 ## Transport Optimal (OT)
 
@@ -24,7 +23,7 @@ Le transport optimal vise à transformer une distribution source en une distribu
 - Basé sur la **distance de Wasserstein (Earth Mover’s Distance)**
 - Permet de capturer la structure globale des distributions de couleurs
 
----
+
 
 ## ⚙️ Algorithmes testés
 
@@ -40,7 +39,7 @@ Le transport optimal vise à transformer une distribution source en une distribu
    - Applique le plan de transport aux pixels  
    - Permet une transformation directe des couleurs
 
----
+
 
 ## Métriques utilisées
 
@@ -58,7 +57,6 @@ Le transport optimal vise à transformer une distribution source en une distribu
   → cohérence perceptuelle  
   → naturel du rendu  
 
----
 
 ## Résultats 
 
